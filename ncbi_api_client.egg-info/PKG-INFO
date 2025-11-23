@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: ncbi-api-client
+Version: 0.1.0
+Summary: Rate-limited NCBI E-utilities API client with local caching
+Author: Xavier Ramos
+Author-email: xarnyc@protonmail.com
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+Requires-Dist: pydantic>=2.5.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: tenacity>=8.2.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: mypy>=1.7.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

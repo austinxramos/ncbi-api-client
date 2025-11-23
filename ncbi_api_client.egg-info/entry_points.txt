@@ -1,0 +1,2 @@
+[console_scripts]
+ncbi-fetch = ncbi_client.cli:main
