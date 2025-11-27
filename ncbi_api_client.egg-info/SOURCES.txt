@@ -9,6 +9,7 @@ ncbi_api_client.egg-info/requires.txt
 ncbi_api_client.egg-info/top_level.txt
 ncbi_client/__init__.py
 ncbi_client/cache.py
+ncbi_client/cli.py
 ncbi_client/client.py
 ncbi_client/config.py
 ncbi_client/exceptions.py
@@ -16,3 +17,4 @@ ncbi_client/models.py
 tests/__init__.py
 tests/test_cache.py
 tests/test_client.py
+tests/test_models.py
